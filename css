@@ -1,0 +1,115 @@
+/*
+    Profile Card
+    Fonts: Georgia and Courier New
+    Colors: cream, white, green, light blue, and dark blue
+*/
+
+/* ---------- PAGE ---------- */
+body {
+    margin: 0;
+    min-height: 100vh;
+    padding: 40px 16px;
+    box-sizing: border-box;
+    background-color: #f5f3e9;
+    background-image: url("https://images.plurk.com/1J3Z3GqcMANh2mQroWlwKM.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* ---------- 1. CARD ---------- */
+.card {
+    width: 100%;
+    max-width: 380px;
+    margin: 0 auto;
+    padding: 0 0 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #ffffff;
+    border: 2px dashed #3d9140;
+    border-radius: 12px;
+}
+
+/* ---------- 2. COVER ---------- */
+.cover {
+    height: 150px;
+    background-image: url("https://images.plurk.com/24fj2Wb7MucRqdLW5kx3Pm.png");
+    background-size: cover;
+    background-position: center;
+}
+
+/* ---------- 3. PHOTO ---------- */
+.profile-photo {
+    display: block;
+    width: 130px;
+    height: 130px;
+    margin: -65px auto 12px;
+    object-fit: cover;
+    border: 5px solid #ffffff;
+    border-radius: 50%;
+}
+
+/* ---------- 4. NAME AND SUBTITLE ---------- */
+.card h2 {
+    margin: 0 20px;
+    padding: 14px 10px 4px;
+    color: #142b4d;
+    background-color: #e3f0fa;
+    border: 2px dotted #3d6c91;
+    border-bottom: none;
+    border-radius: 8px 8px 0 0;
+    font-family: Georgia, serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.subtitle {
+    margin: 0 20px 18px;
+    padding: 0 10px 14px;
+    color: #3d6c91;
+    background-color: #e3f0fa;
+    border: 2px dotted #3d6c91;
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+    font-family: Georgia, serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+/* ---------- 5. DESCRIPTION ---------- */
+.description {
+    margin: 0 20px 18px;
+    padding: 16px;
+    color: #222222;
+    border: 2px dashed #78966a;
+    border-radius: 8px;
+    font-family: "Courier New", monospace;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+/* ---------- 6. DETAILS LIST ---------- */
+.details {
+    margin: 0 20px;
+    padding: 16px 18px 16px 34px;
+    color: #142b4d;
+    background-color: #e3f0fa;
+    border: 2px dotted #3d6c91;
+    border-radius: 8px;
+    font-family: "Courier New", monospace;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.details li {
+    margin-bottom: 7px;
+}
+
+.details li:last-child {
+    margin-bottom: 0;
+}
+
+.details strong {
+    font-family: Georgia, serif;
+}
